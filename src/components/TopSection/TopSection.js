@@ -7,7 +7,7 @@ import cat from '../../images/cat-slide.jpg';
 function TopSection() {
     return (
         <Container fluid className="top-container" id="home">
-        <img className="topImage" src={cat} />
+        <img className="topImage" src={cat} alt='cat' />
             <Container className="top-section-container" style={{position: 'absolute'}}>
                 <h1 style={{justifySelf: 'center'}} className="aboutHeading">Hello World!</h1>
                 <h5 className="aboutDescription"> My name is Calli <br/> I am a web developer based in Berlin Germany.</h5>
