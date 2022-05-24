@@ -1,0 +1,110 @@
+body {
+  background-color: #54123b !important;
+  text-align: center !important;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 4rem !important;
+  color: #29c7ac;
+}
+
+p {
+  font-size: 2rem;
+  color: #29c7ac;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+ width: 325px !important;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.navbar {
+  background-color: #29c7ac;
+  padding: 25px;
+}
+
+.navbar-brand {
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem !important;
+  font-weight: bold;
+  color: #54123b !important;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: #29c7ac;
+  font-family: 'Indie Flower', cursive;
+  padding: 1.5rem 3rem !important;
+}
+
+.navbar a:hover {
+  color: #54123b !important;
+}
+
+.container {
+  margin-top: 3rem !important;
+  padding-left: 0 !important;
+}
+
+.row {
+  margin: auto !important; 
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+.button {
+  margin-top: 3rem !important;
+  color: #232931 !important;
+  background-color: #29c7ac !important;
+  font-family: 'Indie Flower', cursive !important;
+  font-size: 2rem !important;
+}
+
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.container.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+@media screen and (max-width: 1018px) {
+
+  h1 {
+    font-size: 3.5rem;
+    padding: 2rem;
+  }
+
+  img {
+    width: 50% !important;
+    padding-bottom: 3rem;
+  } 
+
+  .topnav a {
+    font-size: 2rem;
+    padding: 10px !important;
+  }
+
+  .button {
+    margin: auto 5rem !important;
+    text-align: center !important;
+    width: 50% !important;
+  }
